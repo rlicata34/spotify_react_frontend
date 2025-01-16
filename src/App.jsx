@@ -1,4 +1,4 @@
-require('dotenv').config();
+// require('dotenv').config();
 import { useState, useEffect } from "react";
 import "./App.css";
 
@@ -9,8 +9,8 @@ function App() {
   const [accessToken, setAccessToken] = useState("");
 
   const baseUrl = "https://api.spotify.com";
-  const clientId = process.env.SPOTIFY_CLIENT_ID;
-  const clientSecret = process.env.SPOTIFY_CLIENT_SECRET;
+  // const clientId = process.env.SPOTIFY_CLIENT_ID;
+  // const clientSecret = process.env.SPOTIFY_CLIENT_SECRET;
   // 33U1XjEJ7XohigE7QXCFIT
 
   // Fetch all saved songs from the backend
